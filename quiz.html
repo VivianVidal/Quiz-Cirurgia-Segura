@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Cirurgia Segura</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <img src="./assets/quiz.png" alt="Ícone quiz">
+            <h1 class="header__nav__text">Teste seus conhecimentos</h1>
+        </nav>
+    </header>
+
+    <main>
+        <div id="quiz"></div>
+
+        <template>
+            <div class="quiz-item">
+                <h3>Pergunta </h3>
+                <dl>
+                    <dt>
+                        <input type="radio" name="item " value="0">
+                        <span>Resposta A</span>
+                    </dt>
+                </dl>
+            </div>
+        </template>
+        <section class="content">
+            <button class="content__button" id="back" type="submit">Voltar</button>
+        </section>
+
+        <div id="acertos"></div>
+    </main>
+    <footer class="footer">
+        <p class="footer__text">&copy; Desenvolvido por Vivian Vidal</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
